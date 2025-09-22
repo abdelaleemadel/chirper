@@ -33,6 +33,9 @@ class User extends Authenticatable
         'remember_token',
     ];
 
+    public function chirps(){
+        return $this->hasMany(Chirp::class);
+    }
     /**
      * Get the attributes that should be cast.
      *
@@ -45,4 +48,5 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
 }
