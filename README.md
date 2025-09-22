@@ -2,8 +2,6 @@
 
 Chirper is a lightweight social media application built with the Laravel framework, inspired by platforms like Twitter. It allows users to post short messages, or "chirps," and interact with a feed of the latest posts from the community.
 
-![Chirper Screenshot](https://i.imgur.com/your-screenshot.png) ---
-
 ## Features
 
 -   **User Authentication:** Secure registration and login system for users.
@@ -40,7 +38,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/your-username/chirper.git](https://github.com/your-username/chirper.git)
+    git clone [https://github.com/abdelaleemadel/chirper.git](https://github.com/abdelaleemadel/chirper.git)
     cd chirper
     ```
 
